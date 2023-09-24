@@ -1,0 +1,172 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.for-header {
+  display: flex;
+  font-family: "Inter", sans-serif;
+  flex-direction: column;
+  align-items: center;
+}
+h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  margin-top: 80px;
+}
+h1 {
+  font-size: 54px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+h2 {
+  font-size: 20px;
+  color: #5f6980;
+  font-weight: 400;
+  margin-top: 16px;
+}
+.h2--line2 {
+  margin-left: 40px;
+}
+
+/* End of the header */
+
+.section-1,
+.section-2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: no-wrap;
+}
+
+.card-1,
+.card-2,
+.card-3,
+.card-4,
+.card-5,
+.card-6,
+.card-7,
+.card-8 {
+  width: 313px;
+  height: 430px;
+  margin-top: 48px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border-size: 1px;
+  border-style: groove;
+}
+.card-1-h,
+.card-2-h,
+.card-3-h,
+.card-4-h {
+  margin-top: 15px;
+  margin-left: 16px;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+}
+
+.card-1-h4 {
+  margin-top: 15px;
+  margin-left: 16px;
+  font-weight: 400;
+  color: #3e3e59;
+}
+.card-1-l3 {
+  color: #5f6980;
+  margin-top: 15px;
+  margin-left: 16px;
+  font-weight: 400;
+}
+
+.card-logo-fb {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.card-logo-insta {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.card-1:hover,
+.card-2:hover,
+.card-3:hover,
+.card-4:hover,
+.card-5:hover,
+.card-6:hover,
+.card-7:hover,
+.card-8:hover {
+  text-decoration: underline;
+  color: green;
+  background-color: aqua;
+
+  /* footer */
+}
+footer {
+  width: 1440px;
+  height: 500px;
+  background-color: #53535354;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-1-p {
+  margin-top: 61px;
+  margin-left: 95px;
+  width: 300px;
+  height: 50px;
+}
+.footer-logo {
+  margin-top: 100px;
+  margin-left: 95px;
+}
+
+.footer-logo-2 {
+  margin-top: 115px;
+  margin-left: 90px;
+}
+.footer-logo-2,
+.footer-logo-3,
+.footer-logo-4 {
+  width: 30px;
+}
+.footer-logo-3 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ul,
+ol {
+  list-style-type: none;
+  text-decoration: none;
+  margin-top: 100px;
+  margin-right: 50px;
+}
+.list-head-1,
+.list-head-2 {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 70px;
+}
+
+.under-2 {
+  margin: 30px 0px;
+}
+
+.list-head-1:hover,
+.under-1:hover,
+.under-2:hover,
+.under-3:hover {
+  text-decoration: underline;
+  color: rgb(7, 63, 112);
+}
+
+.button {
+  width: 80px;
+  height: 45px;
+  background-color: #054a68;
+  padding: 11px;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 13px;
+  border: 3px groove black;
+}
