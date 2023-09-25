@@ -103,7 +103,7 @@ h2 {
   /* footer */
 }
 footer {
-  width: 1440px;
+  width: 100%;
   height: 500px;
   background-color: #53535354;
   margin-top: 50px;
