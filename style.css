@@ -170,3 +170,9 @@ ol {
   font-size: 13px;
   border: 3px groove black;
 }
+
+@media all and (min-width: 780px;) {
+  .for-header {
+    margin-left: center;
+  }
+}
